@@ -1,0 +1,22 @@
+{
+  "name": "csgoposiitive-alerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "chromedriver": "^101.0.0",
+    "needle": "^3.1.0",
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16",
+    "selenium-webdriver": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --trace-warnings index.js",
+    "dev": "nodemon --trace-warnings index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
